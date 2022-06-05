@@ -1,0 +1,12 @@
+$colorboton : #B70E21;
+$colorhover: #d63031;
+$Paletas:(
+ textoblanco:white,
+ colordefondonav:#B70E21,
+ colordefondo:#222222,
+);
+@mixin orden-img{
+	margin:10px;
+	flex-direction:row;
+	justify-content:center;
+}

@@ -1,0 +1,11 @@
+.retratos {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: column;
+    overflow: hidden;
+    text-align: center;
+}
+.titulo{
+color: map-get($Paletas,textoblanco);
+font-size: 100px;
+font-family: 'Roboto Condensed', sans-serif;
+}

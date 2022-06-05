@@ -1,0 +1,20 @@
+.Navegador {
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto Condensed', sans-serif;
+    li{
+        padding: 0 5rem;
+        a{
+            color:white!important;
+            text-transform: capitalize;
+            font-weight: 600;
+            font-size: 25px;
+        }
+    }
+    li:hover,li.active {
+        background-color: rgba(0, 0, 0, .3);
+        transition: .4s;
+        }
+    }
+    

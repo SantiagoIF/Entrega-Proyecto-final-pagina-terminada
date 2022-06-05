@@ -1,0 +1,12 @@
+@import "variables";
+@import "navegador";
+@import "footer";
+@import "inicio";
+@import "galeria";
+@import "contacto";
+@import "sobre-mi";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap";
+.fondo{
+    background-color:map-get($Paletas,colordefondo);
+    }   

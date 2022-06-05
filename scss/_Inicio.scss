@@ -1,0 +1,53 @@
+.Texto-y-ver-mas {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: map-get($Paletas,textoblanco);
+    margin: 40px;
+    padding: 40px;
+}
+.Texto-y-ver-mas2{
+    display: block;
+    text-align:center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 100px;
+    color: map-get($Paletas,textoblanco);
+}
+h1{
+font-family: cursive;
+font-size: 40px;
+margin: 20px;
+}
+
+.Texto-y-ver-mas2 button{
+@extend .button
+}
+.Texto-y-ver-mas2 button:hover {
+    background-color: $colorhover;
+    color: white;
+transition-duration:2s; 
+}
+.Img2 {
+@include orden-img;
+}
+.Img1 {
+@include orden-img;
+}
+.button{
+    margin: 20px;  
+    border: none;
+    color: map-get($Paletas,textoblanco);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: $colorboton ;
+  } 
+.carousel-inner{
+    height: 1000px;
+   }
+.carousel-inner img {
+    width: 100%;
+    max-height: 1000px;
+}
