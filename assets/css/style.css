@@ -200,7 +200,14 @@ h1, .h1 {
 }
 
 .img-cont {
+  max-width: 100%;
   padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Formulario {
@@ -2396,7 +2403,7 @@ progress {
 }
 
 .table-group-divider {
-  border-top: calc(2 * estable-border-width) solid currentcolor;
+  border-top: calc(2 * $table-border-width) solid currentcolor;
 }
 
 .caption-top {
@@ -5625,7 +5632,7 @@ fieldset:disabled .btn {
 }
 
 .page-item:not(:first-child) .page-link {
-  margin-left: calc(pagination-border-width * -1);
+  margin-left: calc($pagination-border-width * -1);
 }
 
 .page-item:first-child .page-link {
@@ -12792,5 +12799,7 @@ fieldset:disabled .btn {
 
 .fondo {
   background-color: #222222;
+  min-width: 100vh;
+  min-height: 100vh;
 }
 /*# sourceMappingURL=style.css.map */
