@@ -11,12 +11,10 @@
     color: map-get($Paletas,textoblanco)
 
 }
-h2{
+.Footer .textoredes h2{
     font-family: cursive;
     font-size: 25px;
-    margin: 20px;
-    text-align: center;
-    color: map-get($Paletas,textoblanco);
+    padding: 10px;
 } 
 
 .textoredes button{

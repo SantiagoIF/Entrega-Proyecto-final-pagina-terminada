@@ -1,7 +1,7 @@
 .Navegador {
     border-bottom: 1px solid white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     
@@ -18,5 +18,14 @@
         background-color: rgba(0, 0, 0, .3);
         transition: .4s;
         }
-    }
-    
+        .nav .conteiner .navbar-brand img {
+            width: 50%;
+            }
+            .navbar-brand{
+                flex-direction: column;
+                display: flex;
+                width: 60%;
+                align-items: center;
+                margin:0;
+            }
+        }
