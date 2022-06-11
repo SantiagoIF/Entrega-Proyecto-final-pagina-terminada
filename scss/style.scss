@@ -9,6 +9,4 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 .fondo{
     background-color:map-get($Paletas,colordefondo);
-    min-width: 100vh;
-    min-height: 100vh;
     }
